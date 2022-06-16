@@ -1,0 +1,25 @@
+.visited{background:#eee}
+.daxem{
+	background-color: #C1FFC1;
+}
+.active{
+	background-color: #DA4F49;
+    background-image: -moz-linear-gradient(center top , #EE5F5B, #BD362F);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+.right-answer{
+	background-color: #5BB75B;
+    background-image: -moz-linear-gradient(center top , #62C462, #51A351);
+    background-repeat: repeat-x;
+}
+.not-answer{
+	background-color: #FFFFCC;
+    background-image: -moz-linear-gradient(center top , #FFFFCC, #FFFFCC);
+    background-repeat: repeat-x;
+}
+.sai-answer{
+	background-color: #DD0000;
+    background-image: -moz-linear-gradient(center top , #DD0000, #DD0000);
+    background-repeat: repeat-x;
+}

@@ -1,0 +1,28 @@
+#progressBar {
+	height: 22px;
+	min-height:22px;
+}
+
+#progressBar div {
+	height: 100%;
+	color: #fff;
+	text-align: right;
+	font-size: 12px;
+	line-height: 22px;
+	width: 0;
+}
+.progressBar {
+	background: #292929;
+	border: 1px solid #111;	
+	border-radius: 5px;	
+	overflow: hidden;
+	box-shadow: 0 0 5px #333;				
+}
+.progressBar div {
+	background-color: #1a82f7;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0099FF), to(#1a82f7)); 
+	background: -webkit-linear-gradient(top, #fff, red); 
+	background: -moz-linear-gradient(top, #fff, red); 
+	background: -ms-linear-gradient(top, #fff, red); 
+	background: -o-linear-gradient(top, #fff, red);
+}
